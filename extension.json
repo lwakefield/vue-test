@@ -1,6 +1,6 @@
 {
   "id": "test-ext",
   "name": "test extension",
-  "srcdoc": "./dist",
+  "src": "https://lwakefield.github.io/vue-test/dist/",
   "fieldTypes": ["Object"]
 }
