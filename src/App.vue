@@ -52,9 +52,10 @@ export default {
     fetch () {
       resolve(this.url).then(v => {
         this.data = v
+        this.udpate(this.data)
       })
     },
-    update (newVal) {
+    update (newVal = this.data) {
       this.data = newVal
       if (this.api) {
         this.api.field.setValue(this.data)
