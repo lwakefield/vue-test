@@ -1,0 +1,6 @@
+{
+  "id": "test-ext",
+  "name": "test extension",
+  "srcdoc": "./dist",
+  "fieldTypes": ["Object"]
+}
