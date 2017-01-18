@@ -52,7 +52,7 @@ export default {
     fetch () {
       resolve(this.url).then(v => {
         this.data = v
-        this.udpate(this.data)
+        this.update(this.data)
       })
     },
     update (newVal = this.data) {
